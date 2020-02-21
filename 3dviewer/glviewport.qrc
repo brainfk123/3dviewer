@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/GLViewport">
+        <file>Resources/保存.png</file>
+        <file>Resources/打开.png</file>
+        <file>Resources/画图.png</file>
+        <file>Resources/截屏.png</file>
+        <file>Resources/棱台.png</file>
+        <file>Resources/棱柱.png</file>
+        <file>Resources/立方体.png</file>
+        <file>Resources/球体.png</file>
+        <file>Resources/纹理.png</file>
+        <file>Resources/圆柱体.png</file>
+        <file>Resources/圆锥体.png</file>
+        <file alias="DefaultFS">Resources/default.fs</file>
+        <file alias="DefaultVS">Resources/default.vs</file>
+        <file alias="GridFS">Resources/grid.fs</file>
+        <file alias="GridVS">Resources/grid.vs</file>
+        <file alias="HDRFS">Resources/hdr.fs</file>
+        <file alias="HDRVS">Resources/hdr.vs</file>
+        <file alias="convolutionFS">Resources/convolution.fs</file>
+        <file alias="lut">Resources/ibl_brdf_lut.png</file>
+        <file alias="convolutionspecFS">Resources/convolutionspec.fs</file>
+        <file>Resources/点光源.png</file>
+        <file>Resources/平行光.png</file>
+        <file>Resources/退出.png</file>
+        <file>Resources/锥体.png</file>
+        <file>Resources/圆盘.png</file>
+        <file alias="env">Resources/cayley_interior_2k.hdr</file>
+    </qresource>
+</RCC>

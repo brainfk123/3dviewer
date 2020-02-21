@@ -1,12 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="dviewer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
       <Extensions>qrc;*</Extensions>
@@ -29,18 +23,71 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="dviewer.h">
+    <ClCompile Include="glviewport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="glviewport.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="glviewport.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="dviewer.ui">
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3DViewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MainWindow.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="dviewer.qrc">
+    <None Include="Resources\convolution.fs">
       <Filter>Resource Files</Filter>
-    </QtRcc>
+    </None>
+    <None Include="Resources\convolutionspec.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\default.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\default.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\grid.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\grid.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\hdr.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\hdr.vs">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
